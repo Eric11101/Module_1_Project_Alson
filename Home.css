@@ -181,6 +181,8 @@ body {
 /* Widgets */
 .widgets {
     flex: 0.3;
+    display: flex;
+    flex-direction: column;
 }
 
 .widgets__input {
@@ -192,7 +194,6 @@ body {
     margin-top: 10px;
     margin-left: 20px;
 }
-
 .widgets__input input {
     border: none;
     background-color: var(--twitter-background);
@@ -206,10 +207,21 @@ body {
     padding: 20px;
     background-color: #16181C;
     border-radius: 20px;
-}
-
-.widgets__widgetContainer h2 {
     color: #e6ecf0;
     font-size: 18px;
     font-weight: 800;
+}
+
+.widgets__widgetContainer{
+    color: #e6ecf0;
+    font-size: 18px;
+    font-weight: 800;
+}
+.trending{
+    color: #e6ecf0;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #16181C;
+    border-radius: 20px;
 }
