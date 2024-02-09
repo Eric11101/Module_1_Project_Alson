@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
     padding: 0 10px;
 }
 .sidebar {
-    border-right: 1px solid var(--twitter-background);
+    border-right: 1px solid #272727;
     flex: 0.2;
     background-color: black;
     min-width: 250px;
@@ -54,14 +55,63 @@ body {
     height: 50px;
     margin-top: 20px;
 }
+
+.logout {
+    height: 35px;
+    width: 35px;
+    margin-right: 13px;
+}
+
 .material-icons{
     padding: 10px;
 }
 .Messages{
-    border: solid;
+    padding-top: 25%;
+    border-right:1px solid #272727;
+    background-color: #121212;
     color: #e6ecf0;
+    height: 100%;
+    text-align: center;
 }
+
+.Messages  p{
+    padding-top: 11%;
+}
+
+.Messages button{
+    border: 2px solid aliceblue;
+    border-radius: 40px;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 20px;
+    font-weight:900;
+}
+
 .Messageselect{
-    border:solid;
+    padding-top: 5%;
+    border-right:1px solid #272727;
     color: #e6ecf0;
+    text-align: center;
+}
+.Messageselect h3{
+    border-bottom: 1px solid aliceblue;
+    padding-bottom: 3%;
+}
+
+.Messageselect p{
+    padding-top: 65%;
+}
+
+.Messageselect button{
+    border: 2px solid aliceblue;
+    border-radius: 40px;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 20px;
+    font-weight:900;
+}
+
+.btnmsg:hover {
+    background-color: #e6ecf0;
+    color: #000000;
 }
