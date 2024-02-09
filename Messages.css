@@ -37,9 +37,12 @@ body {
     background-color: #2A2A2A;
     border-radius: 30px;
 }
-
 .sidebarOption.active {
     color: #2A2A2A;
+}
+.sidebarOption a{
+    text-decoration: none;
+    color: #e6ecf0;
 }
 .sidebar__tweet {
     width: 100%;

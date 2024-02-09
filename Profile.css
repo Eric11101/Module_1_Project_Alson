@@ -58,6 +58,10 @@ body {
 .material-icons{
     padding: 10px;
 }
+.sidebarOption a{
+    text-decoration: none;
+    color: #e6ecf0;
+}
 /* Feed */
 .feed {
     flex: 0.5;
