@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +6,6 @@
 }
 
 body {
-    --twitter-color: #5b676e;
-    --twitter-background: #272727;
     background-color: #0a0000;
     display: flex;
     height: 100vh;
@@ -42,7 +41,6 @@ body {
 .sidebarOption.active {
     color: #2A2A2A;
 }
-
 .sidebar__tweet {
     width: 100%;
     background-color: rgb(3, 0, 0);
@@ -55,4 +53,12 @@ body {
 }
 .material-icons{
     padding: 10px;
+}
+.Messages{
+    border: solid;
+    color: #e6ecf0;
+}
+.Messageselect{
+    border:solid;
+    color: #e6ecf0;
 }
