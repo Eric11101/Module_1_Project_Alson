@@ -64,8 +64,8 @@
     position: relative;
     margin: 25px 50px;
     border-radius: 8px;
-    background-color: #FF5500;
-    color: aliceblue;
+    background-color: aliceblue;
+    color: #000000;
 }
 hr {
     margin: 20px 100px 10px;
