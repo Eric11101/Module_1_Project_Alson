@@ -72,6 +72,7 @@ body {
     color: #e6ecf0;
     height: 100%;
     text-align: center;
+    overflow-y: scroll;
 }
 
 .Messages  p{
@@ -89,7 +90,6 @@ body {
 
 .Messageselect{
     padding-top: 5%;
-    border-right:1px solid #272727;
     color: #e6ecf0;
     text-align: center;
 }
